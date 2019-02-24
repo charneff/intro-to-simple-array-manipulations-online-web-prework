@@ -19,7 +19,7 @@ def using_shift (array)
 end
 
 def shift_with_args (array)
-  array.shift (2)
+  array.shift(2)
 end
 
 def using_concat (array, array_2)
@@ -38,5 +38,10 @@ def using_flatten (array)
   array.flatten
 end
 
-def using_delete
+def using_delete (array, string)
+  array.delete(string)
+end
+
+def using_delete_at (array, integer)
+  
   
